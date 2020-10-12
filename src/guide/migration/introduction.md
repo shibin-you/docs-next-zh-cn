@@ -3,8 +3,8 @@
 本指南主要是为有 Vue 2 经验的用户提供的，他们希望了解 Vue 3 的新功能和更改。这些列表可能看起来很长，但这是因为我们希望尽可能全面，并为每个记录的变化提供详细的例子。**在试用 vue3 之前，你不必从头阅读这些内容**
 
 - [快速开始](#快速开始)
-- [新特性](#新特性)
-- [重大变更](#重大变更)
+- [值得注意的新特性](#值得注意的新特性)
+- [重大改变](#重大改变)
 - [支持的库](#支持的库)
 
 ## 概览
@@ -36,7 +36,6 @@
 
 Vue 3 中需要关注的一些新功能包括：
 
-- `createRenderer` API 从 `@vue/runtime-core` 创建自定义渲染器
 - [`createRenderer` API 来自 `@vue/runtime-core`](https://github.com/vuejs/vue-next/tree/master/packages/runtime-core) 创建自定义渲染器
 - [单文件组件 Composition API 语法糖 (`<script setup>`)](https://github.com/vuejs/rfcs/blob/sfc-improvements/active-rfcs/0000-sfc-script-setup.md) <Badge text="实验性" type="warning" />
 - [单文件组件状态驱动的 CSS 变量 (`<style vars>`)](https://github.com/vuejs/rfcs/blob/sfc-improvements/active-rfcs/0000-sfc-style-variables.md) <Badge text="实验性" type="warning" />
